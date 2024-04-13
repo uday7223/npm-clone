@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.npm-logo{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+
+}
+
+.beta-con{
+    width:400px;
+    height: 535px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-radius: 0.5rem;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.top-1{
+    border-top: 10px solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

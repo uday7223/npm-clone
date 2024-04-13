@@ -1,0 +1,203 @@
+        @import url("./css/style.css");
+            *{
+                padding:0;
+                margin: 0;
+            }
+
+            :root{
+                --txt-align: center;
+                --font-wght : 600;
+                --arimo : 'Arimo', sans-serif;
+                --poppins : "Poppins", sans-serif;
+
+
+            }
+
+            .top-1-rev{
+                border-top: 10px solid;
+                border-image: linear-gradient(-139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+            }
+        
+            .main-bg-pro{
+                height: 210vh;
+                background-image: url(https://static.npmjs.com/attachments/ck3uwdsg8mstodr74z4lcdmy0-bg-pro.png);
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+
+            .main-pro-con-1{
+                height:1329px ;
+                width: 480px;
+                border:  1px solid ;
+                border: none;
+                margin: auto;
+
+            }
+
+            .pro-con-img{
+               display: flex;
+               justify-content:center;
+               padding-top: 60px;
+
+            }
+
+            .pro-h1{
+                padding: 0;
+                color: black;
+                text-align: center;
+                font-weight: 600;
+                font-size:80px; 
+                margin: 50px 0px;
+
+
+            }
+
+            .pro-txt-small-1{
+                text-align: var(--txt-align);
+                font-size: 24px;
+                font-weight:500;
+
+
+            }
+
+            .pro-btn{
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                background: #c12127;
+                border-bottom: solid 5px #fa8717;
+                position: relative;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                color: #fff;
+                font-weight: 700;
+                display: block;
+                box-sizing: border-box;
+                font-family: 'Arimo', sans-serif;
+                margin-bottom: 4rem;
+                margin-left: auto;
+                margin-top: 64px;
+                max-width: 16rem;
+                margin-right: auto;
+                text-align: var(--txt-align);
+            
+            }
+
+            .pro-mini-con{
+                /* border-top: 1px solid; */
+            }
+
+            .mini-con-img{
+                display: flex;
+                justify-content:center;
+                margin: 32px 0px;
+                
+            }
+
+            .mini-con-h2{
+                text-align: var(--txt-align);
+                font-family: var(--poppins);
+                margin: 16.6px 0px;
+                font-weight: var(--font-wght);
+                font-size: 20px;
+
+
+            }
+
+
+            .mini-con-font{
+                text-align: var(--txt-align);
+                font-family: var(--arimo);
+                margin: 16.6px 0px;
+                font-weight: 400px;
+                font-size: 16px;
+
+
+            }
+
+            .txt-color{
+                color: white;
+                margin-bottom:16px ;
+                padding: 0px 500px;
+            }
+
+            .pro-side-img{
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+                top:-1200px;
+            }
+
+            .left{
+               
+                justify-content: flex-start;
+                top:-1450px;
+                height: 900px;
+            
+            }
+            
+            .main-bg-pro-1{
+                height: 100vh;
+                background-image: linear-gradient(270deg, rgba(176, 42, 42, 0.16) 0%, rgba(176, 42, 42, 0.56) 18.45%, rgba(176, 42, 42, 0.8) 49.67%, rgba(176, 42, 42, 0.56) 82.52%, rgba(176, 42, 42, 0.196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, 0.16) 99.73%), url(https://static.npmjs.com/attachments/ck3uwdslwmr4gc9740vqxa800-bg-teams.png);
+            }
+            
+            .main-pro-con-2{
+                padding : 64px 16px 16px;
+                box-sizing: border-box;
+
+                display: flex;
+                justify-content:center;
+
+            }
+            .bg-pro-1-img > img{
+                height: 211px;
+                width: 250px; 
+                margin-left: auto;
+
+            }
+
+            .pro-1-txt1{
+                color: white;
+                font-size: 36px;
+                font-weight: var(--font-wght);
+                font-family: var(--poppins);
+                margin-bottom: 32px;
+            }
+
+            .pro-1-txt2{
+                font-family: var(--arimo);
+                color: white;
+                font-size: 36px;
+                font-weight: 400;
+                margin-bottom: 32px;
+            }
+
+        #a-tag{
+            font-family: Poppins, sans-serif;
+            background: #cb3837;
+            color: white;
+            border: 2px solid #ffffff;
+            text-decoration: none;
+            padding: 16px 64px;
+            text-align: var(--txt-align);
+            height: 316.43px;
+            width: 53.6px;
+            border-radius: 50px;
+            font-size:16px;
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: .1em;
+            margin-left:600px;
+            display: inline;
+            position: relative;
+            top: 32px;
+
+            
+        }
+
+            
+           
+
+            
+
+    
